@@ -1,0 +1,95 @@
+/* *{
+    background-color: black;
+  } */
+  .container{
+    background-image:linear-gradient(rgba(0, 0,0, 0.5), rgba(0, 0,0, 0.5)),url(img_forest.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  .navigation {
+    /* background-color: black; */
+    color: aliceblue;
+    padding: 10px 10px;
+    height: 80px;
+    width: 100%;
+    
+
+  }
+  .logo {
+    font-size: 35px;
+    display: flex;
+    float: left;
+    height: 80px;
+    color: yellow;
+    text-align: left;
+  }
+  .navigation li {
+    float: right;
+    padding: 20px;
+    list-style: none;
+  }
+  .navigation:hover {
+    color: aliceblue;
+  }
+  .navigation li a {
+    color: white;
+  }
+  .content {
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+  }
+  .box{
+    flex-basis: 50%;
+    float: left;
+    border: 1px solid white;
+    position: absolute;
+    top: 47%;
+    right: 50% ;
+    opacity: 0.8;
+    padding: 0px 20px;
+  }
+  .boxes{
+    flex-basis: 50%;
+    float: right;
+  }
+  h5{
+    color: white;
+    font-size: 20px;
+  }
+  p{
+    color:black;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius:10px ;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .card1{
+    background-image:url(1.jpg) ;
+  }
+  .card2{
+    background-image:url(2.jpg) ;
+  }
+ 
+  .card3{
+    background-image:url(3.jpg) ;
+  }
+ 
+  .card4{
+    background-image:url(4.jpg) ;
+  }
+ 
